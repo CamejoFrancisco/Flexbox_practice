@@ -21,11 +21,13 @@ div:nth-child(8) { background-color: silver; }
 }
 
 .flexItem {
-    /*flex-grow: 1;*/
-    flex-shrink: 1;
+    /*Atalho flex-grow e flex-shrink;*/
+    flex: 0 1;
+     /*Definir largura para elementos;*/
+    flex-basis: 25%;
 }
 
 .primeiro {
     /*flex-grow: 2;*/
-    flex-shrink: 2;
+    /*flex-shrink: 2;*/
 }
